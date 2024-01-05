@@ -161,6 +161,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 18px;
     padding: 42px 81px 42px 35px;
     border-radius: 5px;
     background-color: #f6f6f9;
@@ -246,6 +247,41 @@ a{
     font-weight: 600;
 }
 /* COVID INFO END */
+
+/* NEWS START */
+.news{
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+.news-tite{
+    display: none;
+}
+
+.news-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-item{
+    width: 100%;
+    max-width: 386px;
+    margin-bottom: 18px;
+}
+
+.news-item__title{
+    margin: 11px 0;
+    color: #202020;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.news-item__date{
+    color: #6b6d97;
+    font-size: 14px;
+}
+/* NEWS END */
 
 /* MAIN STYLES END */
 
