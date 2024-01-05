@@ -281,9 +281,128 @@ a{
     color: #6b6d97;
     font-size: 14px;
 }
-/* NEWS END */
+/* NEWS END ------------------------------------------------------------ */
 
-/* MAIN STYLES END */
+/* NOTIFICATION START */
+.notification{
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+.notification-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #efba542e;
+    padding: 23px 13px 26px 41px;
+}
+
+.notification-title{
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.notification-title::before{
+    display: inline-block;
+    width: 31px;
+    height: 35px;
+    margin-right: 17px;
+    content: "";
+    background: url(../images/bell-icon.svg);
+}
+
+.notification-btn{
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.90) 88.43%);
+    padding: 8px 8px 8px 15px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+ }
+/* NOTIFICATION END ------------------------------------------------------------ */
+
+/* LATEST NEWS START */
+.latest-news{
+    width: 100%;
+    margin-bottom: 38px;
+}
+
+.latest-news__wrapper{
+    display: flex;
+}
+
+.latest-news__stert-title{
+    margin-top: 0;
+    margin-bottom: 13px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.latest-news__start-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.latest-news__start-item{
+    width: 100%;
+    max-width: 783px;
+    margin-bottom: 18px;
+    display: flex;
+}
+
+.latest-news__start-item-img{
+    width: 252px;
+    height: 143px;
+    margin-right: 19px;
+}
+
+.latest-news__start-item-title{
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #202020;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.latest-news__start-item-desc{
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #434343;
+    font-size: 15px;
+}
+
+.latest-news__start-item-date{
+    display: flex;
+    align-items: center;
+    color: #7688a4;
+    font-size: 14px;
+}
+
+.latest-news__start-item-date::before{
+    margin-right: 3px;
+    content: url(../images/date-icon.svg);
+}
+
+.latest-news__start-btn{
+    display: inline-block;
+    margin-left: 300px ;
+    padding: 10px 32px;
+    border-radius: 5px;
+    background-color: #295093;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+}
+/* LATEST NEWS END */
+
+
+/* MAIN STYLES END ------------------------------------------------------------ */
 
 
 
